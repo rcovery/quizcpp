@@ -45,29 +45,21 @@ int execute(){
 		}
 		if (resp == 1){
 			pw();
-			system("cls");
 		}else if (resp == 2){
 			bd();
-			system("cls");
 		}else if (resp == 3){
 			ltt();
-			system("cls");
 		}else if (resp == 4){
 			tp();
-			system("cls");
 		}else if (resp == 5){
 			pa();
-			system("cls");
 		}else if (resp == 6){
 			fi();
-			system("cls");
 		}else if (resp == 7){
 			aps();
-			system("cls");
 		}else if (resp == 8){
 			dd();
-			system("cls");
-		}
+		}system("cls");
 	}
 
 }
